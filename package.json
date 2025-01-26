@@ -1,0 +1,24 @@
+{
+  "main": "./projects/app/index.js",
+  "scripts": {
+    "dev": "vite --force",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "expo": "^52.0.27",
+    "expo-image": "^2.0.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.6",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "~18.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "flow-remove-types": "^2.259.1",
+    "typescript": "~5.7.3",
+    "vite": "^6.0.11"
+  }
+}
